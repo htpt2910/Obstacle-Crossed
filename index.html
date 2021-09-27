@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span>Obstacles Crossed</span></h1>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="userprofile">
+        <h1>user profile</h1>
+    </div>
+
+
+    <div class="profile">
+        <input type="file" id="file" name="image">
+        <img src="./images/profile_image.png">
+        <label for="file">edit pic</label>
+    </div>
+
+
+    <div class="box">
+
+        <label for="nickname">nickname :</label>
+        <input id="nickname" type="text" name=""><br><br>
+
+        <label for="mail">mail :</label>
+        <input id="mail" type="Email" name=""><br><br>
+
+        <label for="name">name :</label>
+        <input id="name" type="text" name=""><br><br>
+
+        <label for="sex">sex :</label>
+        <select id="sex" name="sex">
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="other">other</option>
+
+        </select><br><br>
+
+        <label for="age">age :</label>
+        <input id="age" type="number" name="" min="6" max="100"><br><br>
+
+
+        <label for="nationality">nationality :</label>
+        <select id="nationality" name="nationality">
+            <option value="Vietnam">Vietnam</option>
+            <option value="Japan">Japan</option>
+            <option value="South Korea">South Korea</option>
+            <option value="US">US</option>
+            <option value="China">China</option>
+            <option value="other">other</option>
+        </select><br><br>
+
+    </div>
+    <div class="button">
+        <button id="cancel" name="cancel">cancel</button>
+
+        <button id="done" name="done">save</button>
+    </div>
+
+
+
+
+</body>
+
+</html>
